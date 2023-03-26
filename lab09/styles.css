@@ -1,0 +1,25 @@
+body {background-color: #ECE5CE; color: #E08E79}
+
+a:link {color: #774F38}
+
+h1, h2, h3, h4, h5, h6 {color: #774F38 }
+
+nav a {color: #774F38; background-color:#E08E79 ; padding: 10px; margin-bottom: 30px;
+}
+
+nav a:hover{background-color: #ECE5CE; }
+
+.row1, .row2 {display:flex; background-color: whitesmoke;border-radius: 20px; padding: 20px; height: fit-content; WIDTH:fit-content }
+.address, .links { display: flex; flex: 1;justify-content: space-around;}
+.quote {float: right; }
+
+.clear {clear:both;}
+
+.links {float:right;}
+.form, .map { display: flex; flex: 1;justify-content: space-around; padding: 30px;}
+
+.classes {display: flex; justify-content: center;}
+.skillsrow1 {display:flex; flex-direction: row; flex:75%; justify-content: space-around;}
+.otherskills {display:flex;flex:25% ;background-color: whitesmoke ;border-radius: 25px; padding: 20px; height: fit-content;width:fit-content ; margin-left: 40px}
+.flexbox2 {display:flex; margin: 30px}
+.text {padding-right: 30px;padding-left: 50px}

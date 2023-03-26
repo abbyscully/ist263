@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Centering</title>
+    <style>
+        p {text-align: center;}
+        h1, div {background-color: lightcoral;}
+        div { /*only centers if block element is less than 100%*/
+            width: 50%; margin: 0 auto; padding: 10px;} 
+        section {
+        /*content can not take up full width
+        will keep block level element 100% of screen*/
+
+        border: 2px dashed #000;
+        display: flex;
+        justify-content: center;}
+    </style>
+</head>
+<body>
+    <h1>Centering</h1>
+
+    <h2>Text Centering</h2>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Culpa non dolorem minima ea in mollitia distinctio laborum ex, nemo consectetur? Voluptatem illo dolores libero. Labore hic deserunt quod adipisci odio.</p>
+   
+    <h2>Block Centering</h2>
+    <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, ipsam, impedit error eum ex atque laudantium totam id eius a itaque. Illum ea nisi vitae dolorum quis rerum id molestias.</div>
+   
+    <h2>Flexbox Hack</h2>
+    <section>
+    <img src="../images/oldotto.jpg" alt="otto mascot">
+    </section>
+</body>
+</html>
