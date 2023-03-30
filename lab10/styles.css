@@ -26,5 +26,5 @@ nav a:hover{background-color: #ECE5CE; }
 .banner {max-width: 100%}
 
 
-@media only screen and (min-width: 768px) {nav{display: block; max-width: 100%; }; span {display:none} }
+@media only screen and (min-width: 768px) {nav a{display: block; max-width: 100%; }; span {display:none} }
 @media only screen and (min-width: 769px) {}
