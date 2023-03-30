@@ -23,6 +23,8 @@ nav a:hover{background-color: #ECE5CE; }
 .otherskills {display:flex;flex:25% ;background-color: whitesmoke ;border-radius: 25px; padding: 20px; height: fit-content;width:fit-content ; margin-left: 40px}
 .flexbox2 {display:flex; margin: 30px; flex-wrap:wrap}
 .text {padding-right: 30px;padding-left: 50px}
+.banner {max-width: 100%}
+
 
 @media only screen and (max-width: 768px) {nav{display: block; max-width: 100%; }; span {display:none} }
 @media only screen and (min-width: 769px) {}
