@@ -24,6 +24,7 @@ nav a:hover{background-color: #ECE5CE; }
 .flexbox2 {display:flex; margin: 30px; flex-wrap:wrap}
 .text {padding-right: 30px;padding-left: 50px}
 .banner {max-width: 100%}
+.form, .map {flex-wrap:wrap ;}
 
 
 
