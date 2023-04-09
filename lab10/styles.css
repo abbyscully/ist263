@@ -31,3 +31,6 @@ nav a:hover{background-color: #ECE5CE; }
 @media only screen and (max-width: 600px) {nav a{display: block; min-width: 100%; }}
 
 @media only screen and (max-width: 600px) {span{display:none}}
+.skip {background-color: #ffbf00; padding: 5px; border: 1px solid #000000 ;text-decoration: none;
+    position:absolute; /*positioin element relative tp top left of viewport*/ 
+    top: 10px; left: -999px; /*posh it off the left side */}
