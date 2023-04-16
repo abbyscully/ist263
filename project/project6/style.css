@@ -1,0 +1,14 @@
+body {font-family: 'Dosis', sans-serif; background-color: #d5f0e2;}
+
+.experience, .education {display: flex; flex-wrap: wrap; flex-direction: column ;border-radius: 15px; padding: 15px; margin: 15px; background-color: #fafafa}
+
+.flexbox {display:flex; flex-wrap:wrap}
+
+nav {display: flex; flex: 1;justify-content: space-around; border-radius: 15px; padding: 10px; margin: 10px; background-color: #fafafa;}
+
+ul {margin: .1em}
+
+p {margin: .7em}
+
+@media only screen and (max-width: 600px) {nav a{display: block; min-width: 100%; font-size: 2em; justify-content:center ;}}
+@media only screen and (max-width: 600px) {span {display:none} nav{display:block}}
