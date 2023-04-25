@@ -1,4 +1,4 @@
-body {font-family: 'Dosis', sans-serif; font-family: 'Lato',; background-color: #d5f0e2;}
+body {font-family: 'Lato',; background-color: #d5f0e2;}
 
 
 .experience, .education{display: flex; flex-wrap: wrap; flex-direction: column ; border-radius: 15px; padding: 15px; margin: 15px; background-color: #fafafa}
