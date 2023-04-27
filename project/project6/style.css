@@ -1,11 +1,11 @@
 body, h1, h2, h3, p {font-family: 'Lato';}
 
 body {background-color: #d5f0e2;}
-.experience, .education{display: flex; flex-wrap: wrap; flex-direction: column ; border-radius: 15px; padding: 15px; margin: 15px; background-color: #fafafa}
+.experience, .education, .bio{display: flex; flex-wrap: wrap; flex-direction: column ; border-radius: 15px; padding: 15px; margin: 15px; background-color: #fafafa}
 
 .flexbox {display:flex; flex-wrap:wrap}
 
-nav {display: flex; flex: 1;justify-content: space-around; border-radius: 15px; padding: 10px; margin: 10px; background-color: #fafafa;}
+nav {display: flex; flex: 1;justify-content: space-around; border-radius: 15px; padding: 10px; margin: 10px; background-color: #fafafa; position:absolute}
 
 ul {margin: .1em}
 
@@ -16,3 +16,15 @@ p {margin: .7em}
 
 .skip { position: absolute; left: -9999px; z-index: 999; padding: 1em;}
     .skip:focus{left:10px;}
+
+.headshot {display:flex}
+
+.indexflex {display:flex; border-radius: 15px; padding: 15px; margin: 15px;}
+
+.bg-img {
+    background-image: url("/project/images/board.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
