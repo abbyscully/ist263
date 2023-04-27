@@ -5,7 +5,7 @@ body {background-color: #d5f0e2;}
 
 .flexbox {display:flex; flex-wrap:wrap}
 
-nav {display: flex; flex: 1;justify-content: space-around; border-radius: 15px; padding: 10px; margin: 10px; background-color: #fafafa; position:absolute}
+nav {display: flex; flex: 1;justify-content: space-around; border-radius: 15px; padding: 10px; margin: 10px; background-color: #fafafa; }
 
 ul {margin: .1em}
 
@@ -19,14 +19,4 @@ p {margin: .7em}
 
 .headshot {display:flex}
 
-.indexflex {display:flex; border-radius: 15px; padding: 15px; margin: 15px;}
-
-.bg-img {
-    background-image: url("/project/images/board.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-
-  }
 
