@@ -18,7 +18,7 @@ p {margin: .7em}
 .skip { position: absolute; left: -9999px; z-index: 999; padding: 1em;}
     .skip:focus{left:10px;}
 
-.headshot {display:flex}
-.indexflex {display:flex}
+.headshot {display:flex; flex-wrap:wrap}
+.indexflex {display:flex; flex-wrap:wrap}
 
 
