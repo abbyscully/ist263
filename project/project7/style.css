@@ -3,7 +3,7 @@ body, h1, h2, h3, p {font-family: 'Lato';}
 body {background-color: #d5f0e2;}
 .experience, .education, .bio, .headshot{display: flex; flex-wrap: wrap; flex-direction: column ; border-radius: 15px; padding: 15px; margin: 15px; background-color: #fafafa}
 
-.flexbox {display:flex; flex-wrap:wrap}
+.flexbox, .indexflex {display:flex; flex-wrap:wrap}
 
 nav {display: flex; flex: 1;justify-content: space-around; border-radius: 15px; padding: 10px; margin: 10px; background-color: #fafafa; }
 
@@ -17,7 +17,5 @@ p {margin: .7em}
 .skip { position: absolute; left: -9999px; z-index: 999; padding: 1em;}
     .skip:focus{left:10px;}
 
-.headshot {display:flex; flex-wrap:wrap}
-.indexflex {display:flex; flex-wrap:wrap}
 
 
