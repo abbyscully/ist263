@@ -13,7 +13,6 @@ p {margin: .7em}
 
 @media only screen and (max-width: 600px) {nav a{display: block; min-width: 100%; font-size: 2em; justify-content:center ;}}
 @media only screen and (max-width: 600px) {span {display:none} nav{display:block}}
-@media only screen and (max-width: 600px) {.headshot {width:100%}}
 
 .skip { position: absolute; left: -9999px; z-index: 999; padding: 1em;}
     .skip:focus{left:10px;}
