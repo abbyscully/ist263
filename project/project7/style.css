@@ -15,7 +15,7 @@ p {margin: .7em}
 @media only screen and (max-width: 600px) {span {display:none} nav{display:block}}
 
 .skip { position: absolute; left: -9999px; z-index: 999; padding: 1em;}
-    .skip:focus{left:10px;}
+.skip:focus{left:10px;}
 
 
 
