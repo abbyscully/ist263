@@ -2,6 +2,7 @@ body, h1, h2, h3, p {font-family: 'Lato';}
 
 body {background-color: #d5f0e2;}
 .experience, .education, .bio, .headshot{display: flex; flex-wrap: wrap; flex-direction: column ; border-radius: 15px; padding: 15px; margin: 15px; background-color: #fafafa}
+.headshot {width:fit-content}
 
 .flexbox, .indexflex {display:flex; flex-wrap:wrap}
 
