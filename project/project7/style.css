@@ -3,7 +3,7 @@ body, h1, h2, h3, p {font-family: 'Lato';}
 body {background-color: #d5f0e2;}
 .experience, .education, .bio {display: flex; flex-wrap: wrap; flex-direction: column ; border-radius: 15px; padding: 15px; margin: 15px; background-color: #fafafa}
 .flexbox, .indexflex {display:flex; flex-wrap:wrap}
-nav {display: flex; flex: 1;justify-content: space-around; border-radius: 15px; padding: 10px; margin: 10px; background-color: #fafafa; }
+nav {display: flex; flex: 1;justify-content: space-around; border-radius: 4%; padding: 4%; margin: 4%; background-color: #fafafa; }
 
 ul {margin: .1em}
 
