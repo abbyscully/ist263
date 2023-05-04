@@ -16,4 +16,4 @@ p {margin: .7em}
 .skip:focus{left:10px;}
 
 .indeximages {display:flex; flex-wrap: wrap; padding:15px; margin:15px }
-.indeximage { padding: 15px; margin:15px; }
+#indeximage { padding: 15px; margin:15px; }
