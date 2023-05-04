@@ -4,7 +4,6 @@ body {background-color: #d5f0e2;}
 .experience, .education, .bio {display: flex; flex-wrap: wrap; flex-direction: column ; border-radius: 15px; padding: 15px; margin: 15px; background-color: #fafafa}
 .flexbox, .indexflex {display:flex; flex-wrap:wrap}
 .indexflex {justify-content: space-around;}
-.headshot {max-width:20%;}
 nav {display: flex; flex: 1;justify-content: space-around; border-radius: 15px; padding: 10px; margin: 10px; background-color: #fafafa; }
 
 ul {margin: .1em}
