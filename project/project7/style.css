@@ -9,7 +9,7 @@ ul {margin: .1em}
 
 p {margin: .7em}
 
-@media only screen and (max-width: 600px) {nav a{display: block; min-width: 100%; font-size: 2em; justify-content:center ;}}
+@media only screen and (max-width: 600px) {nav a{display: block; min-width: 100%; font-size: 1.5em; justify-content:center ;}}
 @media only screen and (max-width: 600px) {span {display:none} nav{display:block}}
 
 .skip { position: absolute; left: -9999px; z-index: 999; padding: 1em;}
