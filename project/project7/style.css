@@ -25,7 +25,11 @@ iframe {position: absolute; top: 0; left: 0; width: 100%; height: 100%;}
 
 .work {display:flex; flex-wrap: wrap; flex-direction:column; border-radius: 15px; padding: 15px; margin: 15px;background-color: #fafafa;}
 
-.moreText {display:none}
-.read-more-btn{padding: 15px; background-color: #fafafa; cursor:pointer}
+.essay {height:500px;width:auto;overflow:auto;}
 
-.text.showmore .moretext {display:inline;}
+.row1, .row2 {display:flex; background-color: whitesmoke;border-radius: 20px; padding: 20px; height: fit-content; WIDTH:fit-content }
+.address, .links { display: flex; flex: 1;justify-content: space-around;}
+.clear {clear:both;}
+
+.links {float:right;}
+.form, .map { display: flex; flex: 1;justify-content: space-around; padding: 30px;}
