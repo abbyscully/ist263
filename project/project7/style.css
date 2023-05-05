@@ -26,4 +26,14 @@ iframe {position: absolute; top: 0; left: 0; width: 100%; height: 100%;}
 .work {display:flex; flex-wrap: wrap; flex-direction:column; border-radius: 15px; padding: 15px; margin: 15px;background-color: #fafafa;}
 
 
-
+.truncated > * {
+    display: none;
+  }
+  .truncated > p:first-child {
+    display: block;
+    cursor: pointer;
+  }
+  .truncated > p:first-child::after {
+    content: "\00a0 More…";
+  }
+  
