@@ -1,3 +1,4 @@
+.bg-img {width:100%;}
 body, h1, h2, h3, p {font-family: 'Lato';}
 
 body {background-color: #d5f0e2;}
@@ -17,7 +18,7 @@ p {margin: .7em}
 .skip:focus{left:10px;}
 
 .indeximages {display:flex; flex-wrap: wrap; padding:15px; margin:15px; justify-content: center; justify-content: space-around; }
-#indeximage {margin-top:15px; margin-bottom:15px; margin-left:15px; margin-right:15px }
+.indeximage {margin-top:15px; margin-bottom:15px; margin-left:15px; margin-right:15px }
 
 iframe {position: absolute; top: 0; left: 0; width: 100%; height: 100%;}
 
@@ -34,4 +35,3 @@ iframe {position: absolute; top: 0; left: 0; width: 100%; height: 100%;}
 .links {float:right;}
 .form{ display: flex; flex: 1;justify-content: space-around; padding: 30px;}
 
-.bg-img {width:100%;}
