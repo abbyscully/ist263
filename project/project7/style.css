@@ -15,7 +15,7 @@ p {margin: .7em}
 .skip { position: absolute; left: -9999px; z-index: 999; padding: 1em;}
 .skip:focus{left:10px;}
 
-.indeximages {display:flex; flex-wrap: wrap; padding:15px; margin:15px }
+.indeximages {display:flex; flex-wrap: wrap; padding:15px; margin:15px; justify-content: space-around; }
 #indeximage {margin-top:15px; margin-bottom:15px; margin-left:15px; margin-right:15px }
 
 iframe {position: absolute; top: 0; left: 0; width: 100%; height: 100%;}
@@ -25,3 +25,5 @@ iframe {position: absolute; top: 0; left: 0; width: 100%; height: 100%;}
 .work {display:flex; flex:1; flex-wrap: wrap; flex-direction: column; border-radius: 15px; padding: 15px; margin: 15px;background-color: #fafafa;}
 
 .flexbox2{display:flex;flex-wrap:wrap}
+
+.headshot {display:flex; flex-wrap: wrap; flex:1; position:relative; top:0 ; left:0 ; width: 100%;padding-bottom: 10%; height: 0}
