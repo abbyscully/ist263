@@ -21,7 +21,7 @@ p {margin: .7em}
 
 iframe {position: absolute; top: 0; left: 0; width: 100%; height: 100%;}
 
-.video { flex: 1; position: relative; padding-bottom: 56.25%;  height: 0;}
+.video { flex: 1; position: relative; padding-bottom: 56.25%;  height: 0; width:fit-content;}
 
 .work {display:flex; flex-wrap: wrap; border-radius: 15px; padding: 15px; margin: 15px;background-color: #fafafa;}
 
