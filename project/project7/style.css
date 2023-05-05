@@ -22,7 +22,7 @@ iframe {position: absolute; top: 0; left: 0; width: 100%; height: 100%;}
 
 .video { flex: 1; position: relative; padding-bottom: 56.25%;  height: 0;}
 
-.work {display:flex; flex-wrap: wrap; flex-direction: column; border-radius: 15px; padding: 15px; margin: 15px;background-color: #fafafa;}
+.work {display:flex; flex-wrap: wrap; flex-direction: column; border-radius: 15px; padding: 15px; margin: 15px;background-color: #fafafa; width:fit-content}
 
 .flexbox2{display:flex;flex-wrap:wrap}
 
