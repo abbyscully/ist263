@@ -18,9 +18,8 @@ p {margin: .7em}
 .indeximages {display:flex; flex-wrap: wrap; padding:15px; margin:15px }
 #indeximage {margin-top:15px; margin-bottom:15px; margin-left:15px; margin-right:15px }
 
-.work {min-width:1000px;display:flex; flex-wrap: wrap; flex-direction: column; border-radius: 14px; background-color: #fafafa; padding: 15px; margin: 15px;}
-
 iframe {position: absolute; top: 0; left: 0; width: 100%; height: 100%;}
 
-
 .video { flex: 1; position: relative; padding-bottom: 56.25%;  height: 0;}
+
+.work {display:flex; flex-wrap: wrap; flex-direction: column; border-radius: 14px; background-color: #fafafa; padding: 15px; margin: 15px;}
