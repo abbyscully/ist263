@@ -11,13 +11,12 @@
 <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200&family=Lato:wght@100&display=swap" rel="stylesheet">
 <link rel="shortcut icon" type="image/x-icon" href="../images/favicon.ico">
 <script>
-    document.querySelectorAll(".truncated").forEach(function(current) {
-
-    current.addEventListener("click", function(e) {
-      current.classList.remove("truncated");
-    }, false);
-  
-  });</script>
+  const readmore = document.querySelector('.readmore');
+  const text = document.querySelector('.text');
+  readmore.addEventListener('click',(e)=>{text.classList.toggle('showmore');
+    if(readmore.innertext = 'Read More'){readmore.innerText = 'Read Less';
+    }else{readmore.innerText='Read More'}})
+  </script>
 
 </head>
 <body>
@@ -52,8 +51,8 @@
     <h2>Seinfeld Analysis Essay</h2>
     
     <p>Seinfeld’s Effect on Television and Society</p>
-    <div class="truncated">
-    <p>Mass media and the entertainment revolutions continue to affect society even years after they first began. This is possible due to the large amounts of distribution and consumption of movies, television, videos, etcetera. Due to this, television shows often mimic what is occuring in society to send a message, but Seinfeld did this in a very different way, without a message. This allowed it to reach a larger audience without the push of strict messages on the audience, it was written so people were allowed to just enjoy the entertainment of everyday life, and dialogue between a group of self-centered friends based in New York City. Seinfeld released in 1989 is a sit-com about a group of friends in New York City and their comical everyday experiences. As many shows have points of intertextuality Seinfeld was affected by many events going on not only in the world of television but in the society of the 90s. Not only has Seinfeld been affected by a lot but it is also one of the most influential sit-coms, or television shows in history. This show broke all the conventional rules of television and sit-coms. It has had such an effect on society as a whole, along with the world of television, that some sayings that were used throughout the show made it into the vocabulary of people who have not even seen the show before. More...</p>
+    
+    <p class="truncated">Mass media and the entertainment revolutions continue to affect society even years after they first began. This is possible due to the large amounts of distribution and consumption of movies, television, <span class="moretext"></span>videos, etcetera. Due to this, television shows often mimic what is occuring in society to send a message, but Seinfeld did this in a very different way, without a message. This allowed it to reach a larger audience without the push of strict messages on the audience, it was written so people were allowed to just enjoy the entertainment of everyday life, and dialogue between a group of self-centered friends based in New York City. Seinfeld released in 1989 is a sit-com about a group of friends in New York City and their comical everyday experiences. As many shows have points of intertextuality Seinfeld was affected by many events going on not only in the world of television but in the society of the 90s. Not only has Seinfeld been affected by a lot but it is also one of the most influential sit-coms, or television shows in history. This show broke all the conventional rules of television and sit-coms. It has had such an effect on society as a whole, along with the world of television, that some sayings that were used throughout the show made it into the vocabulary of people who have not even seen the show before. </p>
     
    
          <p>Seinfeld was first released under the name of The Seinfeld Chronicles in 1989 and came back with very low ratings, but NBC decided to take a chance and keep it on the air and it became one of the most influential sit-coms in the history of television. At this time sit-coms such as Cheers set the basis for what NBC already had on air for sit-coms and the addition of Seinfeld to the primetime lineup allowed for NBC to be the prime network of it’s time. This became even more true as while Seinfeld was airing, more shows like Friends and Frasier with the slogan “Must See TV” added to this success. The addition of Seinfeld to NBC’s network allowed for the transformation of the network into the leading group. This only changed after the Thursday night “Must See TV” lineup changed to dramas instead of sit-coms. Before this change NBC, came out as the network on top with other shows joining it after such as ER and Friends. In an interview with NBC executives during this time, Warren Littlefield and Preston Beckman, and entertainment news outlet Vulture, they spoke on the success of the network’s airings due to scheduling that continued the success of Seinfeld and other shows on the network. During this interview they also spoke about the ratings of shows, including Seinfeld. It was a show that had very poor ratings when first introduced, as most people did not know what to make from it. But, the executives of NBC kept it in the lineup and it was one of the most influential shows in the history of sit-coms. The co-creators Larry David and Jerry Seinfeld both had little previous experience in television but had knowledge of the entertainment industry as Jerry Seinfeld was a stand up comedian and Larry David had previous experience in late night comedy shows and film. This allowed them to have enough knowledge of what people wanted from television at this time and they were able to make a sit-com that could appeal to anyone. The concept of the show not revolving around a specific event opened it up to a larger audience than many other shows of it’s time as this was not seen before.</p>
@@ -77,7 +76,10 @@
         Moraes, Lisa de. “TCA: Fox's 'Mulaney' Addresses 'Seinfeld' Comparisons.” Deadline, 20 July 2014,<a href="https://deadline.com/2014/07/john-mulaney-jerry-seinfeld-lorne-michaels-fox-comedy-mulaney-martin-short-elliott-gould-806789/">Deadline Article.</a> <br>
         VanDerWerff, Emily Todd. “Seinfeld Is 30 Years Old. Here Are 5 Ways It Changed Television.” Vox, Vox, 3 July 2019, <a href="https://www.vox.com/2014/7/6/5874267/how-seinfeld-changed-tv-30th-anniversary">Vox Article.</a> <br>
         Gross, Max. “Seinfeld's 25 Greatest Contributions to the English Language.” New York Post, New York Post, 2 July 2014, <a href="https://nypost.com/2014/07/01/the-25-best-seinfeld-isms/">NYPost Article.</a></p>
-  </div>
+    </span>
+    <button class="readmore">Read More</button>
+    </div>
+
     </div>
 </div>
     </main>
